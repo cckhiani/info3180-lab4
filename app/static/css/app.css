@@ -18,3 +18,24 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.image-card {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
